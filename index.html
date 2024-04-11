@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="hideForms(); tasksClicked()">Tasks</a></li>
+            <li><a href="#" onclick="showLogin()">Login</a></li>
+            <li><a href="#" onclick="showRegister()">Register</a></li>
+        </ul>
+    </nav>
+
+    <div id="user-profile" style="display: none;">
+        <h2>User Profile</h2>
+        <div id="user-info">
+            <!-- User information will be displayed here -->
+        </div>
+        <button id="view-profile" style="display: none;" onclick="logout()">Logout</button>
+    </div>
+
+    <div id="login-form" style="display: none;">
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p>Don't have an account? <a href="#" onclick="showRegister()">Register now!</a></p>
+    </div>
+
+    <div id="register-form" style="display: none;">
+        <input type="text" id="registerUsername" placeholder="Username">
+        <input type="email" id="registerEmail" placeholder="Email">
+        <input type="password" id="registerPassword" placeholder="Password">
+        <button onclick="register()">Register</button>
+    </div>
+
+    <script src="script/app.js"></script>
+</body>
+</html>

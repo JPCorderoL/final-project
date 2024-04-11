@@ -1,0 +1,80 @@
+nav {
+    background: linear-gradient(to bottom, #f4f4f4, #ccc);
+    color: #333;
+    padding: 15px 20px;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #555;
+    text-decoration: none;
+    font-family: 'cursive', cursive;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+#user-profile {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+#user-info {
+    margin-bottom: 10px;
+}
+
+#login-form input, #register-form input {
+    margin: 5px;
+    padding: 5px;
+}
+
+#login-form button, #register-form button {
+    padding: 5px 10px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login-form button:hover, #register-form button:hover {
+    background-color: #005fa4;
+}
+
+#login-form, #register-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+#view-profile {
+    padding: 5px 10px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#view-profile:hover {
+    background-color: #005fa4;
+}
